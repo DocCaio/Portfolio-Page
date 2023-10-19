@@ -1,32 +1,21 @@
 @import url('/assets/styles/abstract/_variaveis.scss');
 
-.menu ul {
+.container {
     display: flex;
-    gap: 1em;
-    list-style-type: none;
+    justify-content: space-around;
+  
+
+    .menu ul {
+        display: flex;
+        gap: 1em;
+        list-style-type: none;
+    }
+
+    .icons{
+        display: flex;
+    }
 }
 
 
-.text {
- color: var($cor-primaria);
- font-family: var($fonte);
- font-size: 58px;
- font-style: normal;
- font-weight: 700;
- line-height: 70px; /* 120.69% */
- letter-spacing: -1px;
-}
 
-.bold-text {
- background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
- background-clip: text;
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
- font-family: Poppins;
- font-size: 58px;
- font-style: normal;
- font-weight: 700;
- line-height: 70px;
- letter-spacing: -1px;
-    
-}
+
