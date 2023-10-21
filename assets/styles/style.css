@@ -37,7 +37,7 @@ html, body {
 .text {
   color: var(#42446E);
   font-family: var("Poppins", sans-serif);
-  font-size: 58px;
+  font-size: 2.5em;
   font-style: normal;
   font-weight: 700;
   line-height: 70px; /* 120.69% */
