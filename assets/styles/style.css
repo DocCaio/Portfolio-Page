@@ -68,4 +68,8 @@ html, body {
   display: flex;
   text-align: center;
   flex-direction: column;
+}
+
+.colored {
+  font-size: 3em;
 }/*# sourceMappingURL=style.css.map */
