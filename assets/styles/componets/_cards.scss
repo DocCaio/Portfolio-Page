@@ -1,0 +1,15 @@
+@import url('/assets/styles/abstract/_variaveis.scss');
+
+.card {
+display: block;
+width: 250px;
+height: 450px;
+flex-shrink: 0;
+
+
+border-radius: 20px;
+background: #FFF;
+box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
+
+}
+
