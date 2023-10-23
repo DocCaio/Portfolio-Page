@@ -71,14 +71,15 @@ html, body {
   flex-direction: column;
 }
 
+.colored {
+  font-size: 3em;
+}
+
 .projetcs-container {
   display: flex;
   text-align: center;
   flex-direction: column;
-}
-
-.colored {
-  font-size: 3em;
+  justify-content: center;
 }
 
 .card {
@@ -86,6 +87,7 @@ html, body {
   width: 250px;
   height: 450px;
   flex-shrink: 0;
+  margin-top: 1em;
   border-radius: 20px;
   background: #FFF;
   box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);

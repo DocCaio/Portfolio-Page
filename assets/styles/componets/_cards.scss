@@ -1,10 +1,19 @@
 @import url('/assets/styles/abstract/_variaveis.scss');
 
+ .projetcs-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    
+   }
+   
 .card {
 display: block;
 width: 250px;
 height: 450px;
 flex-shrink: 0;
+margin-top: 1em;
 
 
 border-radius: 20px;
@@ -12,4 +21,5 @@ background: #FFF;
 box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
 
 }
+
 
