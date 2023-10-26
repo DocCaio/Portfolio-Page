@@ -1,0 +1,15 @@
+@import url('/assets/styles/abstract/_variaveis.scss');
+
+.container-3-text strong  {
+
+background: var(linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+
+}
