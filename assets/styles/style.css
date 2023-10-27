@@ -71,6 +71,24 @@ html, body {
   flex-direction: column;
 }
 
+.user-images {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .container-2 {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    gap: 3em;
+  }
+  .user-images {
+    display: block;
+    width: 349px;
+    height: 349px;
+    flex-shrink: 0;
+  }
+}
 .colored {
   font-size: 3em;
 }
@@ -117,9 +135,23 @@ html, body {
   font-weight: 400;
   line-height: 26px; /* 162.5% */
 }
+.card .links {
+  display: flex;
+  justify-content: center;
+  gap: 6em;
+}
 .card .social-media {
   display: grid;
   gap: 1em;
+}
+.card .card-link {
+  color: #000;
+  font-family: var("Poppins", sans-serif);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  text-decoration-line: underline;
 }
 
 .button {
@@ -136,17 +168,17 @@ button:hover {
   background-color: #a16c60;
 }
 
-.lol {
+.container-icons {
   display: flex;
   gap: 2em;
   padding: 1em;
   justify-content: center;
 }
-.lol .logo {
+.container-icons .logo {
   margin-top: 1em;
   width: 97px;
   height: 59px;
 }
-.lol .bi {
+.container-icons .bi {
   font-size: 2em;
 }/*# sourceMappingURL=style.css.map */

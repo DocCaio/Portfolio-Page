@@ -55,9 +55,28 @@ font-weight: 400;
 line-height: 26px; /* 162.5% */
   }
 
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+    
+   
+
+  }
+
   .social-media {
     display: grid;
     gap: 1em;
+  }
+
+  .card-link{
+    color: #000;
+    font-family: var($fonte);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    text-decoration-line: underline;
   }
   
 

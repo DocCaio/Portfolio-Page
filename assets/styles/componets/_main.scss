@@ -36,4 +36,23 @@
     
    }
 
+   .user-images {
+    display: none;
+   }
+   @media (min-width: 1024px) {
+
+    .container-2 {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        gap: 3em;
+    }
+    .user-images {
+      display: block;
+       width: 349px;
+       height: 349px;
+       flex-shrink: 0;
+    }
+   }
+
   
