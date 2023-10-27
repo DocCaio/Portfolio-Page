@@ -168,6 +168,14 @@ button:hover {
   background-color: #a16c60;
 }
 
+@media (min-width: 1024px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+  }
+}
 .container-icons {
   display: flex;
   gap: 2em;
@@ -181,4 +189,16 @@ button:hover {
 }
 .container-icons .bi {
   font-size: 2em;
+}
+
+@media (min-width: 1024px) {
+  .container_icon-text {
+    display: flex;
+    gap: 2em;
+    padding: 1em;
+    justify-content: space-around;
+  }
+  .container_icon-text .container-3-text {
+    margin-top: 1em;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -101,3 +101,15 @@ line-height: 26px; /* 162.5% */
 button:hover {
     background-color: #a16c60;
 }
+
+
+@media (min-width: 1024px) {
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto auto; 
+    gap: 10px; 
+  }
+
+}
