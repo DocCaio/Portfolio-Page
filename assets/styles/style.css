@@ -57,7 +57,7 @@ html, body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Poppins;
+  font-family: var("Poppins", sans-serif);
   font-size: 58px;
   font-style: normal;
   font-weight: 700;
@@ -77,6 +77,7 @@ html, body {
 
 .projetcs-container {
   display: grid;
+  gap: 1em;
 }
 
 .projetcs-container-texts {
@@ -86,9 +87,11 @@ html, body {
 .card {
   display: grid;
   justify-content: center;
+  text-align: start;
 }
-.card .card-title {
+.card .card-title, .card .card-text, .card .card-sub {
   justify-self: center;
+  margin-left: 1em;
 }
 .card .img {
   width: 20rem;
@@ -106,6 +109,18 @@ html, body {
   background: #FFF;
   box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
 }
+.card .card-sub {
+  color: var(#42446E);
+  font-family: var("Poppins", sans-serif);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.card .social-media {
+  display: grid;
+  gap: 1em;
+}
 
 .button {
   padding: 10px 100px;
@@ -121,8 +136,8 @@ button:hover {
   background-color: #a16c60;
 }
 
-.container-3-text strong {
-  background: var(linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
+.container-3-text span > strong {
+  background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

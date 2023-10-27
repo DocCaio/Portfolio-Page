@@ -1,8 +1,8 @@
 @import url('/assets/styles/abstract/_variaveis.scss');
 
-.container-3-text strong  {
+.container-3-text  span  > strong  {
 
-background: var(linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
+background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;

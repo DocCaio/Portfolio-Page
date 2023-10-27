@@ -6,6 +6,7 @@
 
 .projetcs-container {
   display: grid;
+  gap: 1em;
   
 }
 
@@ -16,10 +17,15 @@
 .card {
   display: grid;
   justify-content: center;
+  text-align: start;
+ 
 
-  .card-title{
+  .card-title , .card-text , .card-sub {
     justify-self: center;
+    margin-left: 1em;
   }
+
+  
 
   .img {
     width: 20rem;
@@ -40,6 +46,21 @@
     box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
   }
   
+  .card-sub {
+color: var($cor-primaria);
+font-family: var($fonte);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+  }
+
+  .social-media {
+    display: grid;
+    gap: 1em;
+  }
+  
+
 }
 
 
