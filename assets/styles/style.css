@@ -136,14 +136,17 @@ button:hover {
   background-color: #a16c60;
 }
 
-.container-3-text span > strong {
-  background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: Poppins;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
+.lol {
+  display: flex;
+  gap: 2em;
+  padding: 1em;
+  justify-content: center;
+}
+.lol .logo {
+  margin-top: 1em;
+  width: 97px;
+  height: 59px;
+}
+.lol .bi {
+  font-size: 2em;
 }/*# sourceMappingURL=style.css.map */
