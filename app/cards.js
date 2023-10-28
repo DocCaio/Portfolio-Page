@@ -1,3 +1,6 @@
+const texto = "Halo! Caio.";
+const elementoMaquinaEscrever = document.querySelector(".typewriter");
+
 function escreverTexto() {
     if (indice < texto.length) {
       elementoMaquinaEscrever.textContent += texto.charAt(indice);
