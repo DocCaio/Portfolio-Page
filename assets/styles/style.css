@@ -95,7 +95,8 @@ html, body {
 
 .projetcs-container {
   display: grid;
-  gap: 1em;
+  justify-content: center;
+  gap: 2em;
 }
 
 .projetcs-container-texts {

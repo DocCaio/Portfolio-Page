@@ -6,7 +6,8 @@
 
 .projetcs-container {
   display: grid;
-  gap: 1em;
+  justify-content: center;
+  gap: 2em;
   
 }
 
@@ -18,6 +19,7 @@
   display: grid;
   justify-content: center;
   text-align: start;
+  
  
 
   .card-title , .card-text , .card-sub {
