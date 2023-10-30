@@ -174,7 +174,15 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
-    gap: 10px;
+    gap: 4em;
+  }
+}
+@media (min-width: 1440px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4em;
+    margin: 0 auto;
   }
 }
 .container-icons {
@@ -195,7 +203,7 @@ button:hover {
 @media (min-width: 1024px) {
   .container_icon-text {
     display: flex;
-    gap: 5em;
+    gap: 6em;
     padding: 1em;
     justify-content: space-around;
   }
