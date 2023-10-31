@@ -1,20 +1,39 @@
 @import url('/assets/styles/abstract/_variaveis.scss');
 
+@media (min-width: 1440px) {
+
 .container {
     display: flex;
     justify-content: space-around;
+    padding: 2em;
+
+    .logo-menu {
+        
+        width: 97px;
+        height: 59px;
+    }
+
+    .menu {
+        display: flex;
+        gap: 2em;
+    }
   
 
     .menu ul {
-        display: flex;
+        display: flex;        
         gap: 1em;
         list-style-type: none;
+        cursor: pointer;
     }
 
     .icons{
         display: flex;
+        gap: 2em;
     }
 }
+
+}
+
 
 
 

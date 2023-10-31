@@ -23,19 +23,31 @@ html, body {
   box-sizing: border-box;
 }
 
-.container {
-  display: flex;
-  justify-content: space-around;
+@media (min-width: 1440px) {
+  .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+  }
+  .container .logo-menu {
+    width: 97px;
+    height: 59px;
+  }
+  .container .menu {
+    display: flex;
+    gap: 2em;
+  }
+  .container .menu ul {
+    display: flex;
+    gap: 1em;
+    list-style-type: none;
+    cursor: pointer;
+  }
+  .container .icons {
+    display: flex;
+    gap: 2em;
+  }
 }
-.container .menu ul {
-  display: flex;
-  gap: 1em;
-  list-style-type: none;
-}
-.container .icons {
-  display: flex;
-}
-
 .container-2 {
   display: flex;
   justify-content: center;
@@ -225,5 +237,8 @@ button:hover {
     gap: 10em;
     padding: 1em;
     justify-content: space-around;
+  }
+  .container-3 .container_icon-text .icons i {
+    margin-right: 1em;
   }
 }/*# sourceMappingURL=style.css.map */
