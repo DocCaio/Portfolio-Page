@@ -210,4 +210,20 @@ button:hover {
   .container_icon-text .container-3-text {
     margin-top: 1em;
   }
+}
+@media (min-width: 1440px) {
+  .container-3 {
+    display: grid;
+    padding: 1em;
+    justify-content: center;
+  }
+  .container-3 .logo {
+    margin-right: 6em;
+  }
+  .container-3 .container_icon-text {
+    display: flex;
+    gap: 10em;
+    padding: 1em;
+    justify-content: space-around;
+  }
 }/*# sourceMappingURL=style.css.map */

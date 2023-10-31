@@ -33,3 +33,26 @@
 }
 
 }
+
+@media (min-width: 1440px) {
+    .container-3 {
+        display: grid;        
+        padding: 1em;
+        justify-content: center;
+
+        .logo {
+           margin-right: 6em;
+        }
+
+    .container_icon-text {
+        display: flex;
+        gap: 10em;
+        padding: 1em;
+        justify-content: space-around;
+      
+
+    }
+
+}
+
+}
