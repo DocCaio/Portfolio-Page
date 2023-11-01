@@ -13,6 +13,34 @@
   box-sizing: border-box;
 }
 
+input {
+  display: none;
+}
+
+.bi {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.bi-moon {
+  display: none;
+}
+
+/*Drk theme*/
+.dark,
+.dark header {
+  background-color: #42446E;
+  color: #fff;
+}
+
+.dark .bi-sun {
+  display: none;
+}
+
+.dark .bi-moon {
+  display: block;
+}
+
 html, body {
   font-family: "Poppins", sans-serif;
 }
@@ -23,6 +51,38 @@ html, body {
   box-sizing: border-box;
 }
 
+input {
+  display: none;
+}
+
+.bi {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.bi-moon {
+  display: none;
+}
+
+/*Drk theme*/
+.dark,
+.dark header {
+  background-color: #42446E;
+  color: #fff;
+}
+
+.dark .bi-sun {
+  display: none;
+}
+
+.dark .bi-moon {
+  display: block;
+}
+
+.logo-menu {
+  display: none;
+}
+
 @media (min-width: 1440px) {
   .container {
     display: flex;
@@ -30,6 +90,7 @@ html, body {
     padding: 2em;
   }
   .container .logo-menu {
+    display: block;
     width: 97px;
     height: 59px;
   }
@@ -53,8 +114,10 @@ html, body {
   justify-content: center;
   text-align: justify;
 }
-
-.text {
+.container-2 .container-2-sec {
+  display: flex;
+}
+.container-2 .container-2-sec .text {
   color: var(#42446E);
   font-family: var("Poppins", sans-serif);
   font-size: 2.5em;
@@ -81,6 +144,7 @@ html, body {
   display: flex;
   text-align: center;
   flex-direction: column;
+  margin: 3em 0em;
 }
 
 .user-images {

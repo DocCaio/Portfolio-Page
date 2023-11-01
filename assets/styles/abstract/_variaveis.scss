@@ -10,6 +10,36 @@
     box-sizing: border-box;
 }
 
+input {
+    display: none;
+}
+
+.bi {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.bi-moon {
+    display: none;
+}
+
+/*Drk theme*/
+
+.dark,
+.dark header {
+    background-color: #42446E;
+    color:#fff;
+}
+
+.dark .bi-sun {
+    display: none;
+}
+
+.dark .bi-moon {
+    display: block;
+}
+
+
 
 $fonte:'Poppins', sans-serif;
 $fonte-menu:'DM Sans', sans-serif; 
@@ -21,3 +51,5 @@ $logo-color:#00C0FD, #E70FAA;
 
 // tamanho das fontes
 $tamanho-do-texto: 3rem;
+
+
