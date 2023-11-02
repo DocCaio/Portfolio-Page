@@ -4,10 +4,11 @@
    font-size: 3em;
 }
 
-.projetcs-container {
+.grid-container {
   display: grid;
   justify-content: center;
   gap: 2em;
+  margin-top: 1em;
   
 }
 
@@ -120,9 +121,9 @@ button:hover {
 @media (min-width: 1440px) {
   .grid-container {
     display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 4em;  
-  margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;  
+    margin: 1em auto;
   }
 
 }
