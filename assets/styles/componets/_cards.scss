@@ -50,19 +50,18 @@
   }
   
   .card-sub {
-color: var($cor-primaria);
-font-family: var($fonte);
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
+  color: var($cor-primaria);
+  font-family: var($fonte);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
   }
 
   .links {
     display: flex;
     justify-content: center;
-    gap: 6em;
-    
+    gap: 6em;  
    
 
   }
