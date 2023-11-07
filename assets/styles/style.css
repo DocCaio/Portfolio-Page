@@ -34,6 +34,11 @@ input {
   color: #fff;
 }
 
+.dark,
+.under {
+  color: #000;
+}
+
 .dark .bi-sun {
   display: none;
 }
@@ -70,6 +75,11 @@ input {
 .dark header {
   background-color: #42446E;
   color: #fff;
+}
+
+.dark,
+.under {
+  color: #000;
 }
 
 .dark .bi-sun {
@@ -166,6 +176,11 @@ input {
     flex-shrink: 0;
   }
 }
+.desenho-bg {
+  width: 100%;
+  height: 100%;
+}
+
 .colored {
   font-size: 3em;
 }

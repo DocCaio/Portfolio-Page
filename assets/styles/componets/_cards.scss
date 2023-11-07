@@ -1,5 +1,10 @@
 @import url('/assets/styles/abstract/_variaveis.scss');
 
+.desenho-bg {
+  width: 100%;
+  height:100%;
+}
+
 .colored {
    font-size: 3em;
 }
@@ -102,7 +107,7 @@ button:hover {
 
     .pro {
       width: 20rem;
-    height: 12rem;
+      height: 12rem;
   }
 
   .projetos{
@@ -121,8 +126,6 @@ button:hover {
 }
     
   }
-
-
 
 }
 
