@@ -33,6 +33,51 @@
     margin-left: 1em;
   }
 
+  .pro {
+    background-color: #000;
+    width: 20rem;
+    height: 12rem;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .pro div p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    color: #C4C4C4;
+  }
+  
+  .pro:hover {
+    letter-spacing: 5px;
+  }
+  
+  .pro div {
+    background-color: #705656;
+    width: 1000px;
+    text-align: center;
+    padding: 5% 0;
+    transform: rotate(-50deg);
+  }
+  
+  .escondido {
+    opacity: 0;
+    display: none;
+    transition: 1000ms;
+  }
+  
+  .projetos-itens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content: center;
+  }
+
 
   
   .under {
@@ -75,6 +120,8 @@
     line-height: 26px; /* 162.5% */
     text-decoration-line: underline;
   } 
+
+
 
     
 
