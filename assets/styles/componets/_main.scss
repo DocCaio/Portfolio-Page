@@ -1,10 +1,7 @@
 .container-2 {
     display: flex;
     justify-content: center;
-    text-align: justify;
-
-    .container-2-sec {
-      display: flex;     
+    text-align: justify;         
 
 
         .text {
@@ -20,7 +17,7 @@
 
     }
   
-}
+
 
 
    .bold-text {
@@ -54,7 +51,13 @@
         display: flex;
         justify-content: center;
         text-align: justify;
+        flex-direction: row;
         gap: 3em;
+
+        .container-2-sec {
+          display: flex;
+          gap: 6rem;
+        }
     }
     .user-images {
       display: block;

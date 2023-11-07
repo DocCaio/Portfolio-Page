@@ -123,10 +123,7 @@ input {
   justify-content: center;
   text-align: justify;
 }
-.container-2 .container-2-sec {
-  display: flex;
-}
-.container-2 .container-2-sec .text {
+.container-2 .text {
   color: var(#42446E);
   font-family: var("Poppins", sans-serif);
   font-size: 2.5em;
@@ -165,7 +162,12 @@ input {
     display: flex;
     justify-content: center;
     text-align: justify;
+    flex-direction: row;
     gap: 3em;
+  }
+  .container-2 .container-2-sec {
+    display: flex;
+    gap: 6rem;
   }
   .user-images {
     display: block;
