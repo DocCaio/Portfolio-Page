@@ -298,7 +298,7 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
-    gap: 4em;
+    gap: 2em;
   }
   .grid-container .pro {
     width: 20rem;
