@@ -186,14 +186,14 @@ input {
 }
 
 .grid-container {
-  display: grid;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
   gap: 2em;
-  margin-top: 1em;
 }
 
 .projetcs-container-texts {
   text-align: center;
+  margin-bottom: 1em;
 }
 
 .card {
@@ -278,6 +278,9 @@ input {
   line-height: 26px; /* 162.5% */
   text-decoration-line: underline;
 }
+.card .card-link:hover {
+  color: green;
+}
 
 .button {
   padding: 10px 100px;
@@ -296,24 +299,24 @@ button:hover {
 @media (min-width: 1024px) {
   .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    gap: 2em;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em;
+    margin: 1em auto;
   }
-  .grid-container .pro {
+  .pro {
     width: 20rem;
     height: 12rem;
   }
-  .grid-container .projetos {
+  .projetos {
     text-align: center;
     display: flex;
     flex-direction: column;
   }
-  .grid-container #projetos {
+  #projetos {
     display: flex;
     justify-content: center;
   }
-  .grid-container .projetos-itens {
+  .projetos-itens {
     flex-direction: column;
   }
 }
