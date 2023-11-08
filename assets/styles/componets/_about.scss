@@ -32,6 +32,10 @@ h2 {
     transition: ease 1s;
 }
 
+.desenho-bg {
+    border-radius: 20px;
+}
+
 .avatar:hover {
     transform: scale(1.05);
 }
@@ -75,7 +79,7 @@ h2 {
     animation: css 3s infinite linear alternate-reverse;
 }
 
-.sobre-mim{
+.sobre-mim {
     display: flex;
     flex-direction: column;
     justify-content: center;
