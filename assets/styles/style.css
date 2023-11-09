@@ -546,17 +546,6 @@ h2 {
   }
   .container-3 .container_icon-text .links:hover {
     transform: rotate(-360deg);
-  }
-  .container-3 .container_icon-text .links1 {
-    background-image: url(../img/githubff2.svg);
-  }
-  .container-3 .container_icon-text .links2 {
-    background-image: url(../img/linkedinff2.svg);
-  }
-  .container-3 .container_icon-text .transparente {
-    transition: ease-in-out 0.3s;
-  }
-  .container-3 .container_icon-text .transparente:hover {
-    opacity: 0;
+    filter: brightness(0) saturate(100%) invert(30%) sepia(87%) saturate(5793%) hue-rotate(215deg) brightness(101%) contrast(106%);
   }
 }/*# sourceMappingURL=style.css.map */

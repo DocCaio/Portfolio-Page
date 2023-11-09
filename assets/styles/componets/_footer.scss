@@ -70,23 +70,11 @@
         
         .links:hover {
             transform: rotate(-360deg);
-        }
-        
-        .links1 {
-            background-image: url(../img/githubff2.svg);
-        }
-        
-        .links2 {
-            background-image: url(../img/linkedinff2.svg);
-        }
-        
-        .transparente {
-            transition: ease-in-out 0.3s;
-        }
-        
-        .transparente:hover {
-            opacity: 0;
-        }
+            filter: brightness(0) saturate(100%) invert(30%) sepia(87%) saturate(5793%) hue-rotate(215deg) brightness(101%) contrast(106%);
+            
+        }       
+      
+    
         
 
     }
