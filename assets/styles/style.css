@@ -537,6 +537,7 @@ h2 {
   }
   .container-3 .logo {
     margin-right: 6em;
+    justify-self: start;
   }
   .container-3 .container_icon-text {
     display: flex;
