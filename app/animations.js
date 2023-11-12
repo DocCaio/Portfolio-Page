@@ -1,4 +1,6 @@
 const flying = document.querySelector("#flying-img");
+const texto = "Halo! Saya Gunawan.";
+const elementoMaquinaEscrever = document.querySelector(".typewriter");
 
 function imgFlying() {
     let distance = 20;
@@ -20,5 +22,14 @@ function imgFlying() {
 
 let indice = 0
 
+function escreverTexto() {
+  if (indice < texto.length) {
+    elementoMaquinaEscrever.textContent += texto.charAt(indice);
+    indice++;
+    setTimeout(escreverTexto, 100); // Ajuste a velocidade da digitação aqui (em milissegundos)
+  }
+}
+
 
 window.addEventListener("load", animarFlutuacao);
+window.addEventListener("load", escreverTexto);
