@@ -4,6 +4,10 @@
     display: none;
 }
 
+ .bi-menu-up {
+   display: block;     
+}
+
 @media (min-width: 1440px) {
 
 .container {
@@ -15,6 +19,10 @@
         display: block;
         width: 97px;
         height: 59px;
+    }
+
+    .bi-menu-up {
+        display: none ;
     }
 
     .menu {

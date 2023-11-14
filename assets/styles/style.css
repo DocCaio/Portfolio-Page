@@ -93,6 +93,10 @@ input {
   display: none;
 }
 
+.bi-menu-up {
+  display: block;
+}
+
 @media (min-width: 1440px) {
   .container {
     display: flex;
@@ -103,6 +107,9 @@ input {
     display: block;
     width: 97px;
     height: 59px;
+  }
+  .container .bi-menu-up {
+    display: none;
   }
   .container .menu {
     display: flex;

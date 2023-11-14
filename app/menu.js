@@ -1,4 +1,4 @@
-const botao = document.querySelector('.menu__button')
+const botao = document.querySelector('.bi-menu-up')
 botao.addEventListener('click', funcaoCallback)
 
 function funcaoCallback() {
@@ -8,9 +8,6 @@ function funcaoCallback() {
 
   function funcaoCallback() {
     const menuNav = document.querySelector('.menu__nav')
-    menuNav.classList.toggle('nav-active')
-  
-    button.textContent === "Abrir"
-      ? button.textContent = "Fechar"
-      : button.textContent = "Abrir"
+    menuNav.classList.toggle('nav-active')  
+   
   }
