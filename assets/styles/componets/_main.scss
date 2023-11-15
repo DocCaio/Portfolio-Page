@@ -50,6 +50,20 @@
     max-width: 500px;
     /* animation: flutuar 3s infinite; */
   }
+
+  #flying-img {
+    width: 100%;
+    animation:
+    flying-img 1.5 infinite ease-in-out;
+     
+  }
+
+  @keyframes flying-img {
+    50% {
+      transform: translateY(-10);
+    }
+    
+  }
   
   @keyframes flutuar {
     0%,
@@ -62,6 +76,7 @@
       transform: translateY(-20px);
     }
   }
+  
    @media (min-width: 1024px) {
 
     .container-2 {

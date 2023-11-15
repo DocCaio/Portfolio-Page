@@ -159,6 +159,7 @@ nav {
     gap: 1em;
     list-style-type: none;
     cursor: pointer;
+    border: none;
   }
   .container .icons {
     display: flex;
@@ -209,6 +210,16 @@ div > #flying-img {
   /* animation: flutuar 3s infinite; */
 }
 
+#flying-img {
+  width: 100%;
+  animation: flying-img 1.5 infinite ease-in-out;
+}
+
+@keyframes flying-img {
+  50% {
+    transform: translateY(-10);
+  }
+}
 @keyframes flutuar {
   0%, 100% {
     /* Define a posição inicial e final da animação */
