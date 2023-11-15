@@ -97,52 +97,45 @@ input {
   display: block;
 }
 
-/*
-.logo-menu {
-    padding: 5px;
-    background: transparent;
-    border: solid 3px black;
-    border-radius: .5rem;
-    font-weight: bold;
-    width: 4rem;
-    cursor: pointer;
-  }
+.logo-menu:hover {
+  background: rgba(0, 0, 0, 0.8666666667);
+  color: white;
+}
 
-  .logo-menu:hover {
-    background: #000D;
-    color: white;
-  }
+.menu ul {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1rem;
+  border: solid 2px white;
+  border-radius: 5px;
+}
 
+li {
+  list-style: none;
+  padding: 0.3rem 1rem;
+}
 
+li:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
 
-  ul {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 1rem;
-    border: solid 2px black;
-    border-radius: 5px;
-  }
+li:hover a {
+  text-decoration: underline;
+}
 
-  li {
-    list-style: none;
-    padding: .3rem 1rem;
-  }
+a {
+  text-decoration: none;
+}
 
-  li:hover {
-    background: #0003;
-  }
+nav {
+  display: none;
+}
 
-  li:hover a{
-    text-decoration: underline;
-  }
+.nav-active {
+  display: block;
+}
 
-  a {
-    text-decoration: none;
-
-  }
-
-  */
 @media (min-width: 1440px) {
   .container {
     display: flex;

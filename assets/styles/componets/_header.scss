@@ -7,16 +7,8 @@
  .bi-menu-up {
    display: block;     
 }
-  /*
-.logo-menu {
-    padding: 5px;
-    background: transparent;
-    border: solid 3px black;
-    border-radius: .5rem;
-    font-weight: bold;
-    width: 4rem;
-    cursor: pointer;
-  }
+  
+
   
   .logo-menu:hover {
     background: #000D;
@@ -25,12 +17,12 @@
 
 
 
-  ul {
+  .menu ul {
     display: inline-flex;
     flex-direction: column;
     align-items: stretch;
     gap: 1rem;
-    border: solid 2px black;
+    border: solid 2px white;
     border-radius: 5px;
   }
   
@@ -52,7 +44,15 @@
     
   }
 
-  */
+  
+
+  nav {
+    display: none;
+  }
+
+  .nav-active {
+    display: block;
+  }
   
 
 @media (min-width: 1440px) {
