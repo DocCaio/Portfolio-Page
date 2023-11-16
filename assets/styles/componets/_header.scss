@@ -17,7 +17,7 @@
 
 
 
-  .menu ul {
+  /*.menu ul {
     display: inline-flex;
     flex-direction: column;
     align-items: stretch;
@@ -42,7 +42,7 @@
   a {
     text-decoration: none;
     
-  }
+  }*/
 
   
 
@@ -73,7 +73,7 @@
     }
 
     .menu {
-        display: flex;
+        display: flex;        
         gap: 2em;
         
     }
