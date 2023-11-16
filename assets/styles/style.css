@@ -205,31 +205,6 @@ nav {
   display: none;
 }
 
-div > #flying-img {
-  max-width: 500px;
-  /* animation: flutuar 3s infinite; */
-}
-
-#flying-img {
-  width: 100%;
-  animation: flying-img 1.5 infinite ease-in-out;
-}
-
-@keyframes flying-img {
-  50% {
-    transform: translateY(-10);
-  }
-}
-@keyframes flutuar {
-  0%, 100% {
-    /* Define a posição inicial e final da animação */
-    transform: translateY(0);
-  }
-  50% {
-    /* Define a posição do meio da animação */
-    transform: translateY(-20px);
-  }
-}
 @media (min-width: 1024px) {
   .container-2 {
     display: flex;
@@ -247,6 +222,31 @@ div > #flying-img {
     width: 349px;
     height: 349px;
     flex-shrink: 0;
+  }
+}
+@media (min-width: 1440px) {
+  div > #flying-img {
+    max-width: 500px;
+    /* animation: flutuar 3s infinite; */
+  }
+  #flying-img {
+    width: 100%;
+    animation: flying-img 1.5 infinite ease-in-out;
+  }
+  @keyframes flying-img {
+    50% {
+      transform: translateY(-10);
+    }
+  }
+  @keyframes flutuar {
+    0%, 100% {
+      /* Define a posição inicial e final da animação */
+      transform: translateY(0);
+    }
+    50% {
+      /* Define a posição do meio da animação */
+      transform: translateY(-20px);
+    }
   }
 }
 .desenho-bg {
