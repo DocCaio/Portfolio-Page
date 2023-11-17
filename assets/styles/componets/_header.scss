@@ -17,7 +17,7 @@
 
 
 
-  /*.menu ul {
+  .list {
     display: inline-flex;
     flex-direction: column;
     align-items: stretch;
@@ -42,13 +42,9 @@
   a {
     text-decoration: none;
     
-  }*/
+  }  
 
-  
-
-  nav {
-    display: none;
-  }
+ 
 
   .nav-active {
     display: block;
@@ -62,6 +58,15 @@
     justify-content: space-around;
     padding: 2em;
 
+    nav {
+      display: flex;      
+    }
+    
+     .list  {
+      display: flex;
+      flex-direction: row;
+    }
+    
     .logo-menu {
         display: block;
         width: 97px;
@@ -79,7 +84,7 @@
     }
   
 
-    .menu ul {
+    .list {
         display: flex;        
         gap: 1em;
         list-style-type: none;
