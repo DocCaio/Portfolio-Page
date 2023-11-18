@@ -45,6 +45,10 @@
     
   }  
 
+  button {
+    display: block;
+  }
+
  
 
   .nav-active {
@@ -58,6 +62,10 @@
     display: flex;
     justify-content: space-around;
     padding: 2em;
+    
+    button {
+      display: none;
+    }
 
     nav {
       display: flex;      

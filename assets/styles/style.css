@@ -137,6 +137,10 @@ a {
   color: black;
 }
 
+button {
+  display: block;
+}
+
 .nav-active {
   display: block;
 }
@@ -146,6 +150,9 @@ a {
     display: flex;
     justify-content: space-around;
     padding: 2em;
+  }
+  .container button {
+    display: none;
   }
   .container nav {
     display: flex;
