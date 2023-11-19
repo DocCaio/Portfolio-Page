@@ -248,6 +248,23 @@ button {
   }
 }
 @media (min-width: 1440px) {
+  .container-2 {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    flex-direction: row;
+    gap: 3em;
+  }
+  .container-2 .container-2-sec {
+    display: flex;
+    gap: 12rem;
+  }
+  .user-images {
+    display: block;
+    width: 349px;
+    height: 349px;
+    flex-shrink: 0;
+  }
   div > #flying-img {
     max-width: 500px;
     /* animation: flutuar 3s infinite; */
@@ -261,7 +278,7 @@ button {
       transform: translateY(-10);
     }
   }
-  @keyframes flutuar {
+  @keyframes flying-img {
     0%, 100% {
       /* Define a posição inicial e final da animação */
       transform: translateY(0);
