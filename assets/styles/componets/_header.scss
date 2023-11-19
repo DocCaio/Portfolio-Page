@@ -65,10 +65,17 @@
     
     button {
       display: none;
+    } 
+    
+    .links {
+      display: flex;
+      gap: 5em;
     }
+    
 
     nav {
-      display: flex;      
+      display: flex;
+           
     }
     
      .list  {
@@ -103,7 +110,7 @@
 
     .icons {
         display: flex;
-        gap: 2em;
+        gap: 2em;       
     }
 }
 

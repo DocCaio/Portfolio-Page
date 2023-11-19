@@ -154,6 +154,10 @@ button {
   .container button {
     display: none;
   }
+  .container .links {
+    display: flex;
+    gap: 5em;
+  }
   .container nav {
     display: flex;
   }
