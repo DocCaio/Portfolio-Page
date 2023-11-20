@@ -7,6 +7,10 @@
  .bi-menu-up {
    display: block;     
 }
+
+.mobile-menu {
+  display: block;
+}
   
 
   
@@ -45,6 +49,21 @@
   .nav-active {
     display: block;
   }
+
+  .mobile-menu-icons {
+    display: block;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    .nav-bar {
+      padding: 1.5rem 4rem;
+    }
+
+  }
   
 
 @media (min-width: 1440px) {
@@ -53,7 +72,19 @@
     button {
       display: none;
     }   
+
+     .nav-active {
+      display: none;
+    }
   
+    .mobile-menu {
+      display: none;
+    }
+
+    .mobile-menu-icon {
+      display: none;
+    }
+      
     
 
     .nav-bar {
@@ -61,7 +92,7 @@
       justify-content: space-between;
       padding: 1.5rem 6rem;
            
-    }
+    
 
     .nav-list {
       display: flex;
@@ -73,6 +104,13 @@
 
     .nav-item {
       margin: 0 15px;
+    }
+
+    .nav-link {
+      list-style: none;
+      text-decoration: none;
+      cursor: pointer;
+
     }
     
     
@@ -100,6 +138,8 @@
         display: flex;
         gap: 2em;       
     }
+
+  }
 }
 
 

@@ -105,6 +105,10 @@ input {
   display: block;
 }
 
+.mobile-menu {
+  display: block;
+}
+
 .logo-menu:hover {
   background: rgba(0, 0, 0, 0.8666666667);
   color: white;
@@ -136,8 +140,30 @@ button {
   display: block;
 }
 
+.mobile-menu-icons {
+  display: block;
+}
+
+.nav-bar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .nav-bar {
+    padding: 1.5rem 4rem;
+  }
+}
 @media (min-width: 1440px) {
   button {
+    display: none;
+  }
+  .nav-active {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
+  }
+  .mobile-menu-icon {
     display: none;
   }
   .nav-bar {
@@ -145,29 +171,34 @@ button {
     justify-content: space-between;
     padding: 1.5rem 6rem;
   }
-  .nav-list {
+  .nav-bar .nav-list {
     display: flex;
     justify-content: center;
     list-style: none;
     text-decoration: none;
     cursor: pointer;
   }
-  .nav-item {
+  .nav-bar .nav-item {
     margin: 0 15px;
   }
-  .logo-menu {
+  .nav-bar .nav-link {
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .nav-bar .logo-menu {
     display: block;
     width: 97px;
     height: 59px;
   }
-  .bi-menu-up {
+  .nav-bar .bi-menu-up {
     display: none;
   }
-  .menu {
+  .nav-bar .menu {
     display: flex;
     gap: 2em;
   }
-  .icons {
+  .nav-bar .icons {
     display: flex;
     gap: 2em;
   }
