@@ -4,6 +4,23 @@
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 
+
+
+
+$fonte:'Poppins', sans-serif;
+$fonte-menu:'DM Sans', sans-serif; 
+// Cores
+$cor-primaria: #42446E;
+$cor-secundaria: #74959A;
+$cor-terciaria: #F1E0AC;
+$logo-color:#00C0FD, #E70FAA;
+
+// tamanho das fontes
+$tamanho-do-texto: 3rem;
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -48,18 +65,4 @@ input {
 .dark .bi-moon {
     display: block;
 }
-
-
-
-$fonte:'Poppins', sans-serif;
-$fonte-menu:'DM Sans', sans-serif; 
-// Cores
-$cor-primaria: #42446E;
-$cor-secundaria: #74959A;
-$cor-terciaria: #F1E0AC;
-$logo-color:#00C0FD, #E70FAA;
-
-// tamanho das fontes
-$tamanho-do-texto: 3rem;
-
 
