@@ -109,6 +109,10 @@ input {
   display: block;
 }
 
+.mobile-menu-icon {
+  display: block;
+}
+
 .logo-menu:hover {
   background: rgba(0, 0, 0, 0.8666666667);
   color: white;
@@ -148,15 +152,18 @@ button {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .nav-bar {
     padding: 1.5rem 4rem;
   }
-}
-@media (min-width: 1440px) {
-  button {
+  .nav-bar .nav-item {
     display: none;
   }
+  .nav-bar .menu__button {
+    display: block;
+  }
+}
+@media (min-width: 1440px) {
   .nav-active {
     display: none;
   }
@@ -194,10 +201,6 @@ button {
   .nav-bar .bi-menu-up {
     display: none;
   }
-  .nav-bar .menu {
-    display: flex;
-    gap: 2em;
-  }
   .nav-bar .icons {
     display: flex;
     gap: 2em;
@@ -207,6 +210,7 @@ button {
   display: flex;
   justify-content: center;
   text-align: justify;
+  height: 40vh;
 }
 .container-2 .text {
   color: var(#42446E);
@@ -496,7 +500,8 @@ button:hover {
 }
 #sobre-mim {
   width: 100%;
-  background-color: #493737;
+  background-color: #241A1B;
+  color: white;
 }
 
 .ajustador-2 {
@@ -613,18 +618,24 @@ h2 {
     margin-right: 0;
   }
 }
-.container-icons {
+.container-3 {
+  width: 100%;
+  background-color: #241A1B;
+  color: white;
+  margin-top: 1em;
+}
+.container-3 .container-icons {
   display: flex;
   gap: 2em;
   padding: 1em;
   justify-content: center;
 }
-.container-icons .logo {
+.container-3 .container-icons .logo {
   margin-top: 1em;
   width: 97px;
   height: 59px;
 }
-.container-icons .bi {
+.container-3 .container-icons .bi {
   font-size: 2em;
 }
 
