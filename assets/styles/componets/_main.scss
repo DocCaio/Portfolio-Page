@@ -36,6 +36,7 @@
        
    }
 
+
    .tech-skills-container {
     display: flex;
     text-align: center;
@@ -96,37 +97,22 @@
  
 
 
-
-   div > #flying-img {
-    max-width: 500px;
-    /* animation: flutuar 3s infinite; */
-  }
-
-  #flying-img {
-    width: 100%;
-    animation:
-    flying-img 1.5 infinite ease-in-out;
-     
-  }
-
-  @keyframes flying-img {
-    50% {
-      transform: translateY(-10);
-    }
-    
-  }
-  
-  @keyframes flying-img  {
-    0%,
-    100% {
-      /* Define a posição inicial e final da animação */
-      transform: translateY(0);
-    }
-    50% {
-      /* Define a posição do meio da animação */
-      transform: translateY(-20px);
-    }
-  }
+  .bold-text::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+   }
+   /* Animação aplicada ao content referente a classe *.titulo-principal* resultando num efeito de cursor piscando. */
+   
+   @keyframes pisca{
+       0%, 100%{
+           opacity: 1;
+       }
+       50%{
+           opacity: 0;
+       }
+   }
 
 }
 

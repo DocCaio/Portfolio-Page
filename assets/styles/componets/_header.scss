@@ -15,7 +15,6 @@
 .mobile-menu-icon {
   display: block;
 }
-  
 
   
   .logo-menu:hover {
@@ -119,6 +118,7 @@
       list-style: none;
       text-decoration: none;
       cursor: pointer;
+      font-family: var($fonte-menu);
     }
 
     .nav-item {
