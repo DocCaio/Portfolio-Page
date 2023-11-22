@@ -1,120 +1,136 @@
 .container-2 {
-    display: flex;
-    justify-content: center;
-    text-align: justify;
-    height: 40vh;   
-          
-
-
-        .text {
-            color: var($cor-primaria);
-            font-family: var($fonte);
-            font-size: 2.5em;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 70px; /* 120.69% */
-            letter-spacing: -1px;
-           }
-           
-
-    }
-  
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  height: 40vh;
 
 
 
-   .bold-text {
-    background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family:var($fonte);
-    font-size: 58px;
+  .text {
+    color: var($cor-primaria);
+    font-family: var($fonte);
+    font-size: 2.5em;
     font-style: normal;
     font-weight: 700;
     line-height: 70px;
+    /* 120.69% */
     letter-spacing: -1px;
-       
-   }
-
-
-   .tech-skills-container {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    margin: 3em 0em;
-    
-   }
-
-   .user-images {
-    display: none;
-   }
-
- 
-  
-   @media (min-width: 1024px) {
-
-    .container-2 {
-        display: flex;
-        justify-content: center;
-        text-align: justify;
-        flex-direction: row;
-        gap: 3em;
-
-        .container-2-sec {
-          display: flex;
-          gap: 6rem;
-        }
-    }
-    .user-images {
-      display: block;
-       width: 349px;
-       height: 349px;
-       flex-shrink: 0;
-    }
-   }
-
-   
-   @media (min-width: 1440px) {
-
-    .container-2 {
-      display: flex;
-      justify-content: center;
-      text-align: justify;
-      flex-direction: row;
-      gap: 3em;
-
-      .container-2-sec {
-        display: flex;
-        gap: 12rem;
-      }
   }
-  .user-images {
-    display: block;
-     width: 349px;
-     height: 349px;
-     flex-shrink: 0;
-  }
- 
 
-
-  .bold-text::after{
-    content: '|';
-    margin-left: 5px;
-    opacity: 1;
-    animation: pisca .7s infinite;
-   }
-   /* Animação aplicada ao content referente a classe *.titulo-principal* resultando num efeito de cursor piscando. */
-   
-   @keyframes pisca{
-       0%, 100%{
-           opacity: 1;
-       }
-       50%{
-           opacity: 0;
-       }
-   }
 
 }
 
 
-  
+
+
+.bold-text {
+  background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: var($fonte);
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+
+}
+
+
+.tech-skills-container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 3em 0em;
+
+}
+
+.user-images {
+  display: none;
+}
+
+
+
+@media (min-width: 1024px) {
+
+  .container-2 {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    flex-direction: row;
+    gap: 3em;
+
+    .container-2-sec {
+      display: flex;
+      gap: 6rem;
+    }
+  }
+
+  .user-images {
+    display: block;
+    width: 349px;
+    height: 349px;
+    flex-shrink: 0;
+  }
+}
+
+
+@media (min-width: 1440px) {
+
+  .container-2 {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    flex-direction: row;
+    gap: 3em;
+
+    .container-2-sec {
+      display: flex;
+      gap: 12rem;
+    }
+  }
+
+  /*Animation*/
+
+  .user-images {
+    display: block;
+    max-width: 349px;
+    max-height: 349px;
+    transform: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+  .user-images:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+
+
+
+
+  .bold-text::after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+  }
+
+  /* Animação aplicada ao content referente a classe *.titulo-principal* resultando num efeito de cursor piscando. */
+
+  @keyframes pisca {
+
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
+    }
+  }
+
+}

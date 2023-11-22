@@ -11,9 +11,8 @@
 .mobile-menu {
   display: block;
 }
-
 .mobile-menu-icon {
-  display: block;
+   display: block;
 }
 
   
@@ -43,9 +42,18 @@
     
   }  
 
-  button {
-    display: block;
-  }
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 1em;
+}
+
+  .mobile-menu-icons {
+   padding: 1em;
+   }
+
+  /*None or block*/
 
  
 
@@ -61,11 +69,15 @@
     display: none;
   }
 
+
+
   @media (max-width: 768px) {
     .nav-bar {
       padding: 1.5rem 4rem;
 
      
+
+    /*None or block*/
 
       .nav-item {
         display: none;
@@ -75,19 +87,31 @@
         display: block;
       }
 
+      .mobile-menu-icon {
+        display: block;
+      }
+
+      
 
     }
     
 
-   
+   .mobile-menu-icon button {
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+          padding: 1em;
+   }
+
+   .mobile-menu-icons {
+    padding: 1em;
+   }
     
 
   }
   
 
-@media (min-width: 1440px) {
-
-    
+@media (min-width: 1440px) {   
     
 
      .nav-active {

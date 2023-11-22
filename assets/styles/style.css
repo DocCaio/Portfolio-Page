@@ -136,10 +136,18 @@ a {
   color: black;
 }
 
-button {
-  display: block;
+.mobile-menu-icon button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 1em;
 }
 
+.mobile-menu-icons {
+  padding: 1em;
+}
+
+/*None or block*/
 .nav-active {
   display: block;
 }
@@ -155,12 +163,28 @@ button {
 @media (max-width: 768px) {
   .nav-bar {
     padding: 1.5rem 4rem;
+    /*None or block*/
   }
   .nav-bar .nav-item {
     display: none;
   }
   .nav-bar .menu__button {
     display: block;
+  }
+  .nav-bar .mobile-menu-icon {
+    display: block;
+  }
+  .nav-bar .open {
+    display: block;
+  }
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 1em;
+  }
+  .mobile-menu-icons {
+    padding: 1em;
   }
 }
 @media (min-width: 1440px) {
@@ -278,11 +302,18 @@ button {
     display: flex;
     gap: 12rem;
   }
+  /*Animation*/
   .user-images {
     display: block;
-    width: 349px;
-    height: 349px;
-    flex-shrink: 0;
+    max-width: 349px;
+    max-height: 349px;
+    transform: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  .user-images:hover {
+    transform: scale(1.1);
+    transform: scale(1.1);
   }
   .bold-text::after {
     content: "|";
@@ -449,8 +480,9 @@ button:hover {
   .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2em;
-    margin: 1em auto;
+    grid-gap: 5rem;
+    margin: 1rem auto;
+    width: 62.5rem;
   }
   .pro {
     background-color: #000;
@@ -527,30 +559,23 @@ h2 {
 
 .desenho-bg {
   border-radius: 20px;
+  transform: translateY(0px);
+  animation: float 5s ease-in-out infinite;
 }
 
 .avatar:hover {
   transform: scale(1.05);
 }
 
-@keyframes html {
+@keyframes float {
   0% {
-    bottom: 0;
-    left: 250px;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-30px);
   }
   100% {
-    bottom: 0;
-    left: 50px;
-  }
-}
-@keyframes css {
-  0% {
-    bottom: 0;
-    left: 50px;
-  }
-  100% {
-    bottom: 0;
-    left: 250px;
+    transform: translateY(0px);
   }
 }
 .html {
