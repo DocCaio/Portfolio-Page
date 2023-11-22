@@ -183,6 +183,7 @@ button:hover {
 @media (min-width: 1440px) {
   .grid-container {
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5rem;  
     margin: 1rem auto;

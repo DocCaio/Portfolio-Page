@@ -174,9 +174,6 @@ a {
   .nav-bar .mobile-menu-icon {
     display: block;
   }
-  .nav-bar .open {
-    display: block;
-  }
   .mobile-menu-icon button {
     background-color: transparent;
     border: none;
@@ -243,7 +240,8 @@ a {
   font-size: 2.5em;
   font-style: normal;
   font-weight: 700;
-  line-height: 70px; /* 120.69% */
+  line-height: 70px;
+  /* 120.69% */
   letter-spacing: -1px;
 }
 
@@ -479,6 +477,7 @@ button:hover {
 @media (min-width: 1440px) {
   .grid-container {
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5rem;
     margin: 1rem auto;
