@@ -42,16 +42,14 @@
     
   }  
 
-  .mobile-menu-icon button {
+  .menu__button {
     background-color: transparent;
     border: none;
     cursor: pointer;
     padding: 1em;
 }
 
-  .mobile-menu-icons {
-   padding: 1em;
-   }
+  
 
   /*None or block*/
 
@@ -61,7 +59,7 @@
     display: block;
   }
 
-  .mobile-menu-icons {
+  .mmenu__button {
     display: block;
   }
 
@@ -83,11 +81,8 @@
         display: none;
       }
 
+    
       .menu__button {
-        display: block;
-      }
-
-      .mobile-menu-icon {
         display: block;
       }
 
@@ -96,16 +91,14 @@
     }
     
 
-   .mobile-menu-icon button {
+   .menu__button {
           background-color: transparent;
           border: none;
           cursor: pointer;
           padding: 1em;
    }
 
-   .mobile-menu-icons {
-    padding: 1em;
-   }
+   
     
 
   }
@@ -118,13 +111,11 @@
       display: none;
     }
   
-    .mobile-menu {
-      display: none;
-    }
+    .menu__button {
+      display: none;  
+     }
 
-    .mobile-menu-icon {
-      display: none;
-    }
+    
     
       
     

@@ -1,11 +1,12 @@
-let menuButton = document.getElementsByClassName("menu-button");
-let menu = document.getElementsByClassName("mobile-menu-icon");
+const button = document.querySelector('.menu__button')
 
-menuButton.addEventListener("click", function() {
-  if (menu.style.display === "block") {
-    menu.style.display = "none";
-  } else {
-    menu.style.display = "block";
-  }
-});
- 
+button.addEventListener('click', funcaoCallback)
+
+function funcaoCallback() {
+  const menuNav = document.querySelector('.menu__nav')
+  menuNav.classList.toggle('menu-active')
+  
+  button.textContent === "Abrir"
+    ? button.textContent = "Fechar"
+    : button.textContent = "Abrir"
+}

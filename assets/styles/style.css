@@ -136,14 +136,10 @@ a {
   color: black;
 }
 
-.mobile-menu-icon button {
+.menu__button {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  padding: 1em;
-}
-
-.mobile-menu-icons {
   padding: 1em;
 }
 
@@ -152,7 +148,7 @@ a {
   display: block;
 }
 
-.mobile-menu-icons {
+.mmenu__button {
   display: block;
 }
 
@@ -171,16 +167,10 @@ a {
   .nav-bar .menu__button {
     display: block;
   }
-  .nav-bar .mobile-menu-icon {
-    display: block;
-  }
-  .mobile-menu-icon button {
+  .menu__button {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    padding: 1em;
-  }
-  .mobile-menu-icons {
     padding: 1em;
   }
 }
@@ -188,10 +178,7 @@ a {
   .nav-active {
     display: none;
   }
-  .mobile-menu {
-    display: none;
-  }
-  .mobile-menu-icon {
+  .menu__button {
     display: none;
   }
   .nav-bar {
