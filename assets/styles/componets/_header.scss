@@ -1,57 +1,65 @@
 @import url('/assets/styles/abstract/_variaveis.scss');
 
-.logo-menu{
-    display: none;
+.menu__button {
+  padding: 5px;
+  background: transparent;
+  border: solid 3px tomato;
+  border-radius: .5rem;
+  font-weight: bold;
+  width: 4rem;
+  cursor: pointer;
 }
 
- .bi-menu-up {
-   display: block;     
+.menu__button:hover {
+  background: #000D;
+  color: white;
 }
 
-.mobile-menu {
-  display: block;
+.nav-list{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1rem;
+  border: solid 2px black;
+  border-radius: 5px;
 }
-.mobile-menu-icon {
-   display: block;
+
+
+
+  
+li {
+  list-style: none;
+  padding: .3rem 1rem;
 }
 
-  
-  .logo-menu:hover {
-    background: #000D;
-    color: white;
-  }
+li:hover {
+  background: #0003;
+}
 
+a {
+  text-decoration: none;
+  color: black;
+}
 
-  
-  li {
-    list-style: none;
-    padding: .3rem 1rem;
-  }
-  
-  li:hover {
-    background: #0003;
-  }
-  
-  li:hover a{
-    text-decoration: underline;
-  }
-  
-  a {
-    text-decoration: none;
-    color: black;
-    
-  }  
+li:hover a {
+  text-decoration: underline;
+}
+ 
 
-  .menu__button {
+  .menu__button{
     background-color: transparent;
     border: none;
     cursor: pointer;
     padding: 1em;
 }
 
-  
+ 
 
   /*None or block*/
+
+  .nav-bar{
+    display: none;
+  }
 
  
 
@@ -59,14 +67,23 @@
     display: block;
   }
 
-  .mmenu__button {
-    display: block;
-  }
-
-  .nav-bar {
+  .logo-menu{
     display: none;
+}
+
+ .bi-menu-up {
+   display: block;   
+ }
+   
+  .logo-menu:hover {
+    background: #000D;
+    color: white;
   }
 
+
+  
+
+ 
 
 
   @media (max-width: 768px) {
@@ -81,11 +98,10 @@
         display: none;
       }
 
-    
       .menu__button {
         display: block;
       }
-
+     
       
 
     }
@@ -98,25 +114,18 @@
           padding: 1em;
    }
 
-   
+  
     
 
   }
   
 
-@media (min-width: 1440px) {   
-    
+@media (min-width: 1440px) {  
+   
 
-     .nav-active {
-      display: none;
-    }
-  
     .menu__button {
-      display: none;  
-     }
-
-    
-    
+      display: none;
+    }  
       
     
 
@@ -124,16 +133,18 @@
       display: flex;
       justify-content: space-between;
       padding: 1.5rem 6rem;
-           
+      
     
 
     .nav-list {
       display: flex;
       justify-content: center;
+      flex-direction: row;
       list-style: none;
       text-decoration: none;
       cursor: pointer;
       font-family: var($fonte-menu);
+      border: none;
     }
 
     .nav-item {
