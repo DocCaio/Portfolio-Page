@@ -9,6 +9,7 @@
 @import url("/assets/styles/abstract/_variaveis.scss");
 @import url("/assets/styles/abstract/_variaveis.scss");
 @import url("/assets/styles/abstract/_variaveis.scss");
+@import url("/assets/styles/abstract/_variaveis.scss");
 * {
   margin: 0;
   padding: 0;
@@ -332,7 +333,7 @@ a {
   font-family: var("DM Sans", sans-serif);
 }
 .card .card-title, .card .card-text, .card .card-sub {
-  justify-self: center;
+  text-align: start;
   margin-left: 1em;
 }
 .card .pro {
@@ -613,6 +614,15 @@ h2 {
     margin-right: 0;
   }
 }
+.init-hidden {
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.init-hidden-off {
+  opacity: 1;
+}
+
 .container-3 {
   width: 100%;
   background-color: #241A1B;
