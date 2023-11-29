@@ -1,21 +1,15 @@
-const observer = new IntersectionObserver(entries => {
-    console.log(entries);
-
-    Array.from(entries).forEach(entry => {
-        if (entry.intersectionRatio >= 1) {
-            entry.target.classList.add('init-hidden-off')
-        }
-    })
-
-} , {
-    threshold: [0, .5 , 1]
-})
-
-
-Array.from(document.querySelectorAll('.init-hidden')).forEach( element => {
-    observer.observe(element);
-
-})
+window.sr = ScrollReveal({ reset:true});
+ScrollReveal({ distance: '15px' });
+sr.reveal('.projetcs-container', {duration : 3000, origin: 'right'})
+sr.reveal('.tech-skills-container', {duration : 3000, origin: 'left'})
+sr.reveal('.linkedin', {duration : 3000,  origin: 'left'})
+sr.reveal('.desenho-bg', {duration : 3000,  origin: 'left'})
+sr.reveal('.sobre-mim', {duration : 3000, origin:'right'})
+sr.reveal('.projetos-itens', {duration : 3000, origin:'bottom'})
+sr.reveal('.project', {duration : 3000, origin:'bottom'})
+sr.reveal('.github-link', {duration : 3000, origin:'bottom'})
+sr.reveal('.conteiner-skills', {duration : 3000, origin:'left'})
+sr.reveal('.conteiner-descricao', {duration : 3000, origin:'right'})
 
  
     
