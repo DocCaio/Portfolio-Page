@@ -1,4 +1,4 @@
-@import url('/assets/styles/abstract/_variaveis.scss');
+@use '/assets/styles/abstract/_variaveis.scss';
 
 .desenho-bg {
   width: 100%;
@@ -26,7 +26,7 @@
   display: grid;
   justify-content: center;
   text-align: start;  
-  font-family: var($fonte-menu); 
+  font-family: variaveis.$fonte-menu; 
  
 
   .card-title , .card-text , .card-sub {
@@ -91,8 +91,8 @@
   }
   
   .card-sub {
-  color: var($cor-primaria);
-  font-family: var($fonte);
+  color: variaveis.$cor-primaria;
+  font-family: variaveis.$fonte;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -114,7 +114,7 @@
 
   .card-link{
     color: #000;
-    font-family: var($fonte);
+    font-family: variaveis.$fonte;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;

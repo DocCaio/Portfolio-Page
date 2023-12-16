@@ -1,9 +1,9 @@
-@import './abstract/base';
-@import './abstract/variaveis';
-@import './componets/header';
-@import './componets/main';
-@import './componets/cards';
-@import './componets/about';
-@import './componets/scroll';
-@import './componets/footer';
+@use './abstract/base';
+@use './abstract/variaveis';
+@use  './componets/header';
+@use  './componets/main';
+@use  './componets/cards';
+@use  './componets/about';
+@use  './componets/scroll';
+@use  './componets/footer';
 
