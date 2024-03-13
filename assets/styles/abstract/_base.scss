@@ -1,5 +1,5 @@
-@import './variaveis';
+@use "./variaveis";
 
 html, body {
-    font-family: $fonte;
+    font-family:variaveis.$fonte;
 }
