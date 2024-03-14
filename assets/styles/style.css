@@ -21,13 +21,22 @@ input {
   display: none;
 }
 
-.bi {
+.bi {  
   font-size: 1.3rem;
   cursor: pointer;
 }
 
 .bi-moon {
   display: none;
+}
+
+.grid {
+  display: inline-flex;
+  gap: 1rem;
+}
+
+.icon , .bi-box-arrow-up-right {
+  color: #000;
 }
 
 /*Drk theme*/
@@ -360,13 +369,21 @@ a {
   font-family: var("DM Sans", sans-serif);
   background-color: #FFF;
   border-radius: 20px;
+  padding: 1rem;
+}
+
+.card_print {
+  width: 345px;
+  height: 230px;
+  border-radius: 10px;
+
 }
 
 .card .pro {
   background-color: #000;
   width: 20rem;
   height: 12rem;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
