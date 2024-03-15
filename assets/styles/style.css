@@ -370,12 +370,12 @@ a {
   font-family: var("DM Sans", sans-serif);
   background-color: #FFF;
   border-radius: 20px;
-  padding: 1rem;
+  padding: .8rem;
 }
 
 .card_print {
-  width: 345px;
-  height: 230px;
+  width: 21.563rem;
+  height: 14.375rem;
   border-radius: 10px;
 
 }
